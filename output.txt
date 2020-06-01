@@ -1,0 +1,65 @@
+Output (List of guests to invite within 100km )
+
+User id. 4 
+Name: Ian Kehoe
+Distance from Intercom Office: 10.57 km
+
+User id. 5
+Name: Nora Dempsey
+Distance from Intercom Office: 23.29 km
+
+User id. 6
+Name: Theresa Enright
+Distance from Intercom Office: 24.09 km
+
+User id. 8
+Name: Eoin Ahearn
+Distance from Intercom Office: 83.53 km
+
+User id. 11
+Name: Richard Finnegan
+Distance from Intercom Office: 38.14 km
+
+User id. 12
+Name: Christina McArdle
+Distance from Intercom Office: 41.77 km
+
+User id. 13
+Name: Olive Ahearn
+Distance from Intercom Office: 62.26 km
+
+User id. 15
+Name: Michael Ahearn
+Distance from Intercom Office: 43.73 km
+
+User id. 17
+Name: Patricia Cahill
+Distance from Intercom Office: 96.08 km
+
+User id. 23
+Name: Eoin Gallagher
+Distance from Intercom Office: 82.7 km
+
+User id. 24
+Name: Rose Enright
+Distance from Intercom Office: 89.03 km
+
+User id. 26
+Name: Stephen McArdle
+Distance from Intercom Office: 98.93 km
+
+User id. 29
+Name: Oliver Ahearn
+Distance from Intercom Office: 72.23 km
+
+User id. 30
+Name: Nick Enright
+Distance from Intercom Office: 82.68 km
+
+User id. 31
+Name: Alan Behan
+Distance from Intercom Office: 44.31 km
+
+User id. 39
+Name: Lisa Ahearn
+Distance from Intercom Office: 38.36 km

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReuseIdentifier" rowHeight="65" id="KGk-i7-Jjw" customClass="CustomerCell" customModule="IntercomGuests" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g8a-Vw-MI4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="8k1-6j-0ZU">
+                                <rect key="frame" x="9" y="7" width="310" height="49"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="iSU-BW-7hi">
+                                        <rect key="frame" x="0.0" y="0.0" width="310" height="19.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0DW-Fz-MD6">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="19.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="eqm-Lf-epc"/>
+                                                    <constraint firstAttribute="height" constant="19.5" id="yuz-hX-4tO"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance from Origin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="Cqs-YP-C97">
+                                                <rect key="frame" x="110" y="0.0" width="200" height="19.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="19.5" id="CIg-0J-7oj"/>
+                                                    <constraint firstAttribute="width" constant="200" id="zMJ-Wg-xB7"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="se8-z5-Qit">
+                                        <rect key="frame" x="0.0" y="28.5" width="300" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="fyn-4e-hkB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="BrandBlue"/>
+                        <constraints>
+                            <constraint firstItem="8k1-6j-0ZU" firstAttribute="top" secondItem="g8a-Vw-MI4" secondAttribute="top" constant="7" id="FFV-zh-r06"/>
+                            <constraint firstAttribute="trailing" secondItem="8k1-6j-0ZU" secondAttribute="trailing" constant="1" id="ISX-4d-eqi"/>
+                            <constraint firstItem="8k1-6j-0ZU" firstAttribute="leading" secondItem="g8a-Vw-MI4" secondAttribute="leading" constant="9" id="Ngn-2E-fll"/>
+                            <constraint firstAttribute="bottom" secondItem="8k1-6j-0ZU" secondAttribute="bottom" constant="9" id="QKs-Qa-9jA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="g8a-Vw-MI4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="6HX-gk-ULh"/>
+                    <constraint firstAttribute="trailing" secondItem="g8a-Vw-MI4" secondAttribute="trailing" id="H22-N8-oSr"/>
+                    <constraint firstAttribute="bottom" secondItem="g8a-Vw-MI4" secondAttribute="bottom" id="Hf8-ag-QPb"/>
+                    <constraint firstItem="g8a-Vw-MI4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Oy3-6h-JNE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="customerBubble" destination="g8a-Vw-MI4" id="FEV-VP-05T"/>
+                <outlet property="distanceFromOrigin" destination="Cqs-YP-C97" id="mkk-1l-qc5"/>
+                <outlet property="nameLabel" destination="se8-z5-Qit" id="Mz0-8S-Yuw"/>
+                <outlet property="userIdLabel" destination="0DW-Fz-MD6" id="zA2-HS-HJy"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="136.27232142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="BrandBlue">
+            <color red="0.16500000655651093" green="0.77999997138977051" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

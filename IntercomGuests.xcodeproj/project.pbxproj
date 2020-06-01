@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BD845C68598397DCEBC9478 /* Pods_IntercomGuests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B266979C0B1BF9FD1DCE47DC /* Pods_IntercomGuests.framework */; };
+		A226A8AB2482ABA100C4B98E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A226A8AA2482ABA100C4B98E /* AppDelegate.swift */; };
+		A226A8AD2482ABA100C4B98E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A226A8AC2482ABA100C4B98E /* SceneDelegate.swift */; };
+		A226A8AF2482ABA100C4B98E /* CustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A226A8AE2482ABA100C4B98E /* CustomerViewController.swift */; };
+		A226A8B22482ABA100C4B98E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A226A8B02482ABA100C4B98E /* Main.storyboard */; };
+		A226A8B42482ABA600C4B98E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A226A8B32482ABA600C4B98E /* Assets.xcassets */; };
+		A226A8B72482ABA600C4B98E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A226A8B52482ABA600C4B98E /* LaunchScreen.storyboard */; };
+		A226A8C12482E27C00C4B98E /* CustomerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A226A8C02482E27C00C4B98E /* CustomerData.swift */; };
+		A2B2FB232484412F00A6E0C1 /* CustomerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B2FB212484412F00A6E0C1 /* CustomerCell.swift */; };
+		A2B2FB242484412F00A6E0C1 /* CustomerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2B2FB222484412F00A6E0C1 /* CustomerCell.xib */; };
+		A2B2FB26248444AC00A6E0C1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B2FB25248444AC00A6E0C1 /* Constants.swift */; };
+		A2D6AA802483CC4500A492D6 /* GuestList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D6AA7F2483CC4500A492D6 /* GuestList.swift */; };
+		A2D6AA852483DE5D00A492D6 /* GuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D6AA842483DE5D00A492D6 /* GuestViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A226A8A72482ABA100C4B98E /* IntercomGuests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntercomGuests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A226A8AA2482ABA100C4B98E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A226A8AC2482ABA100C4B98E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A226A8AE2482ABA100C4B98E /* CustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewController.swift; sourceTree = "<group>"; };
+		A226A8B12482ABA100C4B98E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A226A8B32482ABA600C4B98E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A226A8B62482ABA600C4B98E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A226A8B82482ABA600C4B98E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A226A8C02482E27C00C4B98E /* CustomerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerData.swift; sourceTree = "<group>"; };
+		A2B2FB212484412F00A6E0C1 /* CustomerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerCell.swift; sourceTree = "<group>"; };
+		A2B2FB222484412F00A6E0C1 /* CustomerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomerCell.xib; sourceTree = "<group>"; };
+		A2B2FB25248444AC00A6E0C1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A2D6AA7F2483CC4500A492D6 /* GuestList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestList.swift; sourceTree = "<group>"; };
+		A2D6AA842483DE5D00A492D6 /* GuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestViewController.swift; sourceTree = "<group>"; };
+		B090B5350CAA5D27317929F4 /* Pods-IntercomGuests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntercomGuests.debug.xcconfig"; path = "Target Support Files/Pods-IntercomGuests/Pods-IntercomGuests.debug.xcconfig"; sourceTree = "<group>"; };
+		B266979C0B1BF9FD1DCE47DC /* Pods_IntercomGuests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntercomGuests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD5A40BAF0103F58C3A50C6 /* Pods-IntercomGuests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntercomGuests.release.xcconfig"; path = "Target Support Files/Pods-IntercomGuests/Pods-IntercomGuests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A226A8A42482ABA000C4B98E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD845C68598397DCEBC9478 /* Pods_IntercomGuests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A226A89E2482ABA000C4B98E = {
+			isa = PBXGroup;
+			children = (
+				A226A8A92482ABA100C4B98E /* IntercomGuests */,
+				A226A8A82482ABA100C4B98E /* Products */,
+				B5794BDDDEED685198EF1B8B /* Pods */,
+				F50A627A0717B73A001B73F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A226A8A82482ABA100C4B98E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A226A8A72482ABA100C4B98E /* IntercomGuests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A226A8A92482ABA100C4B98E /* IntercomGuests */ = {
+			isa = PBXGroup;
+			children = (
+				A226A8AA2482ABA100C4B98E /* AppDelegate.swift */,
+				A226A8AC2482ABA100C4B98E /* SceneDelegate.swift */,
+				A2D6AA812483D29B00A492D6 /* Model */,
+				A2D6AA822483D2A200A492D6 /* View */,
+				A2D6AA832483D2A800A492D6 /* Controller */,
+				A226A8B32482ABA600C4B98E /* Assets.xcassets */,
+				A226A8B52482ABA600C4B98E /* LaunchScreen.storyboard */,
+				A226A8B82482ABA600C4B98E /* Info.plist */,
+				A2B2FB25248444AC00A6E0C1 /* Constants.swift */,
+			);
+			path = IntercomGuests;
+			sourceTree = "<group>";
+		};
+		A2D6AA812483D29B00A492D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A226A8C02482E27C00C4B98E /* CustomerData.swift */,
+				A2D6AA7F2483CC4500A492D6 /* GuestList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2D6AA822483D2A200A492D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A226A8B02482ABA100C4B98E /* Main.storyboard */,
+				A2B2FB212484412F00A6E0C1 /* CustomerCell.swift */,
+				A2B2FB222484412F00A6E0C1 /* CustomerCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2D6AA832483D2A800A492D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A226A8AE2482ABA100C4B98E /* CustomerViewController.swift */,
+				A2D6AA842483DE5D00A492D6 /* GuestViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5794BDDDEED685198EF1B8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B090B5350CAA5D27317929F4 /* Pods-IntercomGuests.debug.xcconfig */,
+				DCD5A40BAF0103F58C3A50C6 /* Pods-IntercomGuests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F50A627A0717B73A001B73F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B266979C0B1BF9FD1DCE47DC /* Pods_IntercomGuests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A226A8A62482ABA000C4B98E /* IntercomGuests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A226A8BB2482ABA600C4B98E /* Build configuration list for PBXNativeTarget "IntercomGuests" */;
+			buildPhases = (
+				F50FC6A847944DA434FED85A /* [CP] Check Pods Manifest.lock */,
+				A226A8A32482ABA000C4B98E /* Sources */,
+				A226A8A42482ABA000C4B98E /* Frameworks */,
+				A226A8A52482ABA000C4B98E /* Resources */,
+				98079B79AB92BF561EDF4445 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntercomGuests;
+			productName = IntercomGuests;
+			productReference = A226A8A72482ABA100C4B98E /* IntercomGuests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A226A89F2482ABA000C4B98E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Pushkar Deshmane";
+				TargetAttributes = {
+					A226A8A62482ABA000C4B98E = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A226A8A22482ABA000C4B98E /* Build configuration list for PBXProject "IntercomGuests" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A226A89E2482ABA000C4B98E;
+			productRefGroup = A226A8A82482ABA100C4B98E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A226A8A62482ABA000C4B98E /* IntercomGuests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A226A8A52482ABA000C4B98E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A226A8B72482ABA600C4B98E /* LaunchScreen.storyboard in Resources */,
+				A226A8B42482ABA600C4B98E /* Assets.xcassets in Resources */,
+				A226A8B22482ABA100C4B98E /* Main.storyboard in Resources */,
+				A2B2FB242484412F00A6E0C1 /* CustomerCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98079B79AB92BF561EDF4445 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntercomGuests/Pods-IntercomGuests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntercomGuests/Pods-IntercomGuests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IntercomGuests/Pods-IntercomGuests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F50FC6A847944DA434FED85A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntercomGuests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A226A8A32482ABA000C4B98E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D6AA802483CC4500A492D6 /* GuestList.swift in Sources */,
+				A2D6AA852483DE5D00A492D6 /* GuestViewController.swift in Sources */,
+				A226A8AF2482ABA100C4B98E /* CustomerViewController.swift in Sources */,
+				A226A8C12482E27C00C4B98E /* CustomerData.swift in Sources */,
+				A2B2FB232484412F00A6E0C1 /* CustomerCell.swift in Sources */,
+				A226A8AB2482ABA100C4B98E /* AppDelegate.swift in Sources */,
+				A226A8AD2482ABA100C4B98E /* SceneDelegate.swift in Sources */,
+				A2B2FB26248444AC00A6E0C1 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A226A8B02482ABA100C4B98E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A226A8B12482ABA100C4B98E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A226A8B52482ABA600C4B98E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A226A8B62482ABA600C4B98E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A226A8B92482ABA600C4B98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A226A8BA2482ABA600C4B98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A226A8BC2482ABA600C4B98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B090B5350CAA5D27317929F4 /* Pods-IntercomGuests.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDXLGMTYZ9;
+				INFOPLIST_FILE = IntercomGuests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushkar.IntercomGuests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A226A8BD2482ABA600C4B98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD5A40BAF0103F58C3A50C6 /* Pods-IntercomGuests.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDXLGMTYZ9;
+				INFOPLIST_FILE = IntercomGuests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushkar.IntercomGuests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A226A8A22482ABA000C4B98E /* Build configuration list for PBXProject "IntercomGuests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A226A8B92482ABA600C4B98E /* Debug */,
+				A226A8BA2482ABA600C4B98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A226A8BB2482ABA600C4B98E /* Build configuration list for PBXNativeTarget "IntercomGuests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A226A8BC2482ABA600C4B98E /* Debug */,
+				A226A8BD2482ABA600C4B98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A226A89F2482ABA000C4B98E /* Project object */;
+}

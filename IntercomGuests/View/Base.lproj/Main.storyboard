@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E5J-Z1-WmN">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Gustomer List-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CustomerViewController" customModule="IntercomGuests" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wcP-wZ-Otk">
+                                <rect key="frame" x="0.0" y="140" width="414" height="651"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTZ-Au-aMl">
+                                <rect key="frame" x="107" y="818" width="200" height="30"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="0mc-NA-SuG"/>
+                                    <constraint firstAttribute="height" constant="30" id="76E-r5-jpz"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Generate Guest List"/>
+                                <connections>
+                                    <segue destination="ZTS-pH-oKK" kind="show" identifier="segue" id="70N-n0-Uah"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FTZ-Au-aMl" secondAttribute="bottom" constant="14" id="295-TG-vRb"/>
+                            <constraint firstItem="FTZ-Au-aMl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EGa-1h-bqz"/>
+                            <constraint firstItem="wcP-wZ-Otk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FNo-8M-ufq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wcP-wZ-Otk" secondAttribute="bottom" constant="71" id="WOX-4b-R5h"/>
+                            <constraint firstItem="wcP-wZ-Otk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eBU-hy-S4l"/>
+                            <constraint firstItem="wcP-wZ-Otk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="h2u-JK-rWH"/>
+                            <constraint firstItem="wcP-wZ-Otk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ujD-qZ-Hri"/>
+                            <constraint firstItem="FTZ-Au-aMl" firstAttribute="top" secondItem="wcP-wZ-Otk" secondAttribute="bottom" constant="27" id="xOf-km-KUH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Gustomer List" id="049-zv-kmf"/>
+                    <connections>
+                        <outlet property="tableView" destination="wcP-wZ-Otk" id="UdO-uY-wv1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="65.625"/>
+        </scene>
+        <!--Guest List-->
+        <scene sceneID="YR1-sy-fLZ">
+            <objects>
+                <viewController id="ZTS-pH-oKK" customClass="GuestViewController" customModule="IntercomGuests" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0eh-kW-jsj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="j8g-qh-P2Z">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="j8g-qh-P2Z" secondAttribute="bottom" id="0fN-Ft-tUq"/>
+                            <constraint firstItem="j8g-qh-P2Z" firstAttribute="leading" secondItem="y5h-U4-Gxu" secondAttribute="leading" id="7jO-v4-gOX"/>
+                            <constraint firstItem="j8g-qh-P2Z" firstAttribute="trailing" secondItem="y5h-U4-Gxu" secondAttribute="trailing" id="B90-Pp-Dge"/>
+                            <constraint firstItem="j8g-qh-P2Z" firstAttribute="top" secondItem="0eh-kW-jsj" secondAttribute="top" id="eTx-Hs-jf3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="y5h-U4-Gxu"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Guest List" id="YS5-RI-Ytt"/>
+                    <connections>
+                        <outlet property="guestTableView" destination="j8g-qh-P2Z" id="1f3-gI-qxe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xRd-BB-x4J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1857.9710144927537" y="65.625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fdq-Vx-UlT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="E5J-Z1-WmN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="xVj-DT-Ive">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.91000000000000003" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="uZK-Cf-ztw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fsH-u8-ZWa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="65.625"/>
+        </scene>
+    </scenes>
+</document>
